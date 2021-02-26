@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/croquis.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,27 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*---------- Modification CR -----------*/
+
+.cust-txt-img{
+    font-size: 1.6em;
+    text-align: center;
+    padding-left:12%;
+    padding-right:12%;
+}
+
+.cust-italique{
+    font-style: italic;
+}
+
+.cust-temoi{
+    font-size:1em;
+    color:grey;
+    text-align: center;
+}
+
+.keywords{
+    color:#cccccc;font-size:1px;
 }
