@@ -1063,3 +1063,11 @@ h4 {
 .keywords{
     color:#cccccc;font-size:1px;
 }
+
+.collapse {
+    display: block;
+}
+
+.img-responsive {
+    width: 100%!important;
+}
