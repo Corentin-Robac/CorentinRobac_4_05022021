@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background-color: rgba(0, 0, 0, 0.068);
     background-size: 280px 280px;
 }
 
@@ -526,7 +526,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 1em;
     opacity: 1;
 }
 
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -695,7 +695,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
 }
 
@@ -710,7 +710,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size:1em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(66, 62, 52, 0.78);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -807,14 +807,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
@@ -1060,14 +1052,20 @@ h4 {
     text-align: center;
 }
 
-.keywords{
-    color:#cccccc;font-size:1px;
-}
-
 .collapse {
     display: block;
 }
 
 .img-responsive {
     width: 100%!important;
+}
+
+.snapshot-lb .lightbox-caption {
+    background: white;
+}
+
+@media screen and (max-width:450px){
+    .showScrollTop, p, .cta-hero, h3, .cust-temoi {
+        font-size: 18px;
+    }
 }
